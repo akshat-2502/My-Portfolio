@@ -26,9 +26,16 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "projects", label: "Projects" },
+    { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact Me" },
   ];
+  const handleScroll = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-50  ${
@@ -56,8 +63,12 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
-                {" "}
+              <button
+                onClick={() => {
+                  handleMenuItemClick(item.id);
+                  handleScroll(item.id);
+                }}
+              >
                 {item.label}
               </button>
             </li>

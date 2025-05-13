@@ -6,6 +6,7 @@ import Projects from "./components/ProjectsName/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./BlurBob";
+import Education from "./components/Education/Education";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Education />
         <Contact />
         <Footer />
       </div>
