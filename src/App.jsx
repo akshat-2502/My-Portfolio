@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/ProjectsName/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./BlurBob";
@@ -20,6 +21,7 @@ function App() {
         <Navbar />
         <About />
         <Skills />
+        <Projects />
         <Contact />
         <Footer />
       </div>
