@@ -7,7 +7,8 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-10 md:px-50  font-sans mt-16 md:mt-24 lg:mt-32"
+      // className="py-4 px-10 md:px-50  font-sans mt-5 md:mt-24 lg:mt-20"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-50 font-sans mt-16 md:mt-24 lg:mt-25"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -75,7 +76,7 @@ const About = () => {
             <img
               src={profileImage}
               alt="Tarun Kaushik"
-              className="w-105 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
         </div>
