@@ -46,6 +46,7 @@ import vpsLogo from "./assets/education_logo/vps_logo.png";
 // Project Section Logo's
 import githubdetLogo from "./assets/work_logo/netflix.png";
 import csprepLogo from "./assets/work_logo/watchtube.png";
+import zwigato from "./assets/work_logo/zwigato.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
 import npmLogo from "./assets/work_logo/npmLogo.png";
@@ -65,6 +66,8 @@ export const SkillsInfo = [
       { name: "Redux", logo: reduxLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "Next JS", logo: nextjsLogo },
+      { name: "TypeScript", logo: typescriptLogo },
     ],
   },
   {
@@ -187,11 +190,11 @@ export const projects = [
     id: 0,
     title: "AI-powered Movie Recommendation App",
     description:
-      "A full-stack AI-powered movie recommendation app built with React, Tailwind CSS, Redux Toolkit, and Firebase Authentication. It integrates Google Gemini API to generate context-aware movie suggestions and dynamically renders trailers via embedded players within the app. Redux efficiently handles global state and asynchronous actions, while Firebase secures authentication workflows. The responsive UI ensures a seamless cross-device user experience.",
+      "AI-powered movie recommendation app built with React, Tailwind CSS, Redux Toolkit, and Firebase Authentication. It integrates Google Gemini API to generate context-aware movie suggestions and dynamically renders trailers via embedded players within the app. The responsive UI ensures a seamless cross-device user experience.",
     image: githubdetLogo,
     tags: [
       "HTML",
-      "CSS",
+      "Shimmer UI",
       "JavaScript",
       "React JS",
       "API",
@@ -206,6 +209,26 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Zwigato-Food Delivery App",
+    description:
+      "A responsive food delivery web app built with React, Redux, and Tailwind CSS. It features category-based filtering, add-to-cart functionality, a dynamic cart sidebar, dark mode toggle, and toast notifications. The app offers smooth UI transitions and provides a seamless user experience for browsing and ordering food items.",
+    image: zwigato,
+    tags: [
+      "React JS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Redux",
+      "API",
+      "Dark Mode",
+      "Debouncing Search Bar",
+      "Toastify",
+    ],
+    github: "https://github.com/akshat-2502/Food-Delivery-React-and-Redux",
+    webapp: "https://food-delivery-react-and-redux.vercel.app/",
+  },
+  {
+    id: 2,
     title: "WatchTube",
     description:
       "WatchTube is a high-performance YouTube clone built with React, Redux, Tailwind CSS, and JavaScript. It integrates Google APIs to fetch and display video content, with a debounced search box that provides real-time suggestions via API calls. Features include an optimized live chat system, efficient state management with Redux, and a recursive nested comments section for threaded discussions.",
@@ -226,7 +249,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Ochi-An Animation Website",
     description:
       "A visually rich animation website built using React, Tailwind CSS, JavaScript, HTML, Framer Motion, and GSAP. It features smooth, high-performance animations and interactive transitions for an immersive user experience. Framer Motion and GSAP power complex motion effects, while the responsive Tailwind layout ensures seamless performance across all devices. Designed for speed, elegance, and modern UI flow.",
@@ -243,7 +266,7 @@ export const projects = [
     webapp: "https://ochi-seven-eta.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio Website",
     description:
       "A fully responsive, modern portfolio website built using React, JavaScript, Tailwind CSS, and React Router. It features smooth navigation, animated typing effects via React Typewriter, and interactive elements powered by Parallax Tilt for an engaging user experience. The UI is optimized for all devices, showcasing projects and skills with a clean, visually appealing, and dynamic design.",
@@ -260,15 +283,5 @@ export const projects = [
     ],
     github: "https://github.com/akshat-2502/My-Portfolio",
     webapp: "https://www.akshatportfolio.com/",
-  },
-  {
-    id: 4,
-    title: "TODO-LIST",
-    description:
-      "A dynamic and responsive To-Do List application developed using React and JavaScript. It features real-time task addition, deletion, and status toggling with efficient component-based state management. Designed with a clean UI, the app ensures a seamless user experience and fast performance, making task organization simple and intuitive across all devices.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "React", "HTML", "CSS"],
-    github: "https://github.com/akshat-2502/Practice",
-    webapp: "https://practice-seven-iota.vercel.app/",
   },
 ];

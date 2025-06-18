@@ -42,15 +42,16 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            I’m a passionate web developer skilled in React, JavaScript,
+            Tailwind CSS, HTML, and CSS. I enjoy building responsive,
+            interactive UIs and exploring backend tools like Next.js, Node.js,
+            and Express. Always eager to learn, I love solving real-world
+            problems and creating meaningful digital experiences through clean,
+            efficient code.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1NEUqcI4704QJ0R67W134trjZn0urDL9P/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LhelgCEf5p3Fki5Vy5L1zBtNkgR1eVd9/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
