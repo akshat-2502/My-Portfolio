@@ -34,6 +34,7 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 import urlLogo from "./assets/work_logo/urlLogo.png";
 import infinite from "./assets/work_logo/infinite.png";
+import jwt from "./assets/tech_logo/jwt.png";
 
 // Experience Section Logo's
 import webverseLogo from "./assets/company_logo/webverse_logo.png";
@@ -80,6 +81,7 @@ export const SkillsInfo = [
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
+      { name: "JWT", logo: jwt },
     ],
   },
   {
