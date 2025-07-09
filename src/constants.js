@@ -32,6 +32,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
+import urlLogo from "./assets/work_logo/urlLogo.png";
 
 // Experience Section Logo's
 import webverseLogo from "./assets/company_logo/webverse_logo.png";
@@ -209,6 +210,26 @@ export const projects = [
   },
   {
     id: 1,
+    title: "URL-SHORTNER",
+    description:
+      "This is a full-stack URL shortener application built using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to shorten long URLs into compact links and track them efficiently. The app is equipped with user authentication, RESTful API design, and secure cookie-based sessions, delivering both functionality and security.",
+    image: urlLogo,
+    tags: [
+      "React JS",
+      "RESTFUL API",
+      "NodeJS",
+      "EXPRESS",
+      "MongoDB",
+      "Tailwind",
+      "React-Router",
+      "ReactRedux",
+      "JWT",
+    ],
+    github: "https://github.com/akshat-2502/url-shortner",
+    webapp: "https://url-shortner-kappa-puce.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Zwigato-Food Delivery App",
     description:
       "A responsive food delivery web app built with React, Redux, and Tailwind CSS. It features category-based filtering, add-to-cart functionality, a dynamic cart sidebar, dark mode toggle, and toast notifications. The app offers smooth UI transitions and provides a seamless user experience for browsing and ordering food items.",
@@ -228,7 +249,7 @@ export const projects = [
     webapp: "https://food-delivery-react-and-redux.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "WatchTube",
     description:
       "WatchTube is a high-performance YouTube clone built with React, Redux, Tailwind CSS, and JavaScript. It integrates Google APIs to fetch and display video content, with a debounced search box that provides real-time suggestions via API calls. Features include an optimized live chat system, efficient state management with Redux, and a recursive nested comments section for threaded discussions.",
@@ -249,7 +270,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Ochi-An Animation Website",
     description:
       "A visually rich animation website built using React, Tailwind CSS, JavaScript, HTML, Framer Motion, and GSAP. It features smooth, high-performance animations and interactive transitions for an immersive user experience. Framer Motion and GSAP power complex motion effects, while the responsive Tailwind layout ensures seamless performance across all devices. Designed for speed, elegance, and modern UI flow.",
@@ -266,7 +287,7 @@ export const projects = [
     webapp: "https://ochi-seven-eta.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description:
       "A fully responsive, modern portfolio website built using React, JavaScript, Tailwind CSS, and React Router. It features smooth navigation, animated typing effects via React Typewriter, and interactive elements powered by Parallax Tilt for an engaging user experience. The UI is optimized for all devices, showcasing projects and skills with a clean, visually appealing, and dynamic design.",
