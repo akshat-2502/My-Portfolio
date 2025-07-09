@@ -234,7 +234,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Infinite Aciators - Flight Logbook & Feed for Virtual Pilots",
+    title: "Infinite Aviators - Flight Logbook & Feed for Virtual Pilots",
     description:
       "a full-stack MERN app for virtual pilots to plan and join group flights, share aviation posts, and connect with fellow enthusiasts. Features include JWT auth, flight creation/joining, interactive feed with likes/comments, profile management, infinite scroll and much more",
     image: infinite,
