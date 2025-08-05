@@ -43,11 +43,11 @@ const About = () => {
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I’m a passionate web developer skilled in React, JavaScript,
-            Tailwind CSS, HTML, and CSS. I enjoy building responsive,
-            interactive UIs and exploring backend tools like Next.js, Node.js,
-            and Express. Always eager to learn, I love solving real-world
-            problems and creating meaningful digital experiences through clean,
-            efficient code.
+            Tailwind CSS, Node JS, Express, MongoDB HTML, and CSS. I enjoy
+            building responsive, interactive UIs and exploring backend tools
+            like Next.js, Node.js, and Express. Always eager to learn, I love
+            solving real-world problems and creating meaningful digital
+            experiences through clean, efficient code.
           </p>
           {/* Resume Button */}
           <a
